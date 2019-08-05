@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "onWindowChange",
+    "editor.fontSize": 20,
+    "files.autoSaveDelay": 44,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.tabCompletion": "on",
+    "emmet.triggerExpansionOnTab": true,
+    "editor.lineHeight": 36
+}
