@@ -131,6 +131,11 @@ while(aladen < 10){
                             }
                             alert("Password valido");*/
 
-                            do{
-                                var numero = parseInt(prompt("Digite un numero"));
-                            }while (numero > 0);
+                           /* do{
+                                var num = parseInt(prompt("Digite un numero positivo"));
+                            }while (num > 0 || num %2 ==1);
+                            */
+                                do{
+                                var con1=prompt("Entra la contrasena");
+                                var con2=prompt("Confirmala");
+                            }while(!(con1===con2 ));
