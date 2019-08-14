@@ -70,4 +70,67 @@ while(aladen < 10){
                     console.log(num);
                 }
             }*/
-            
+            //1
+            /*var x = parseInt(prompt("Engresar el primer numero"));
+                while(x < 0){
+                }
+                    x = parseInt(prompt("Solo numero positivos"));
+                var y = parseInt(prompt("Engresa el segundo numero"));
+                    while(y < 0){
+                        y = parseInt(prompt("Solo numero positivos"));
+                    }
+                    var resultado = x + y;
+                document.write(resultado);
+                
+                //2
+                var edad = parseInt(prompt("Digite la edad"));
+                    while(edad < 18 || edad > 25 ){
+                        edad = parseInt(prompt("Digita un numero entre 18-25"));
+
+                    }
+                    alert(`la edad digitada ${edad}`);*/
+                //3                   
+               /* var edad = parseInt(prompt("Digite la edad"));
+                    while(edad > 70 || edad < 99 ){
+                        edad = parseInt(prompt("Digita un numero entre 18-25"));
+
+                    }
+                    alert(`la edad digitada ${edad}`);*/
+                   /* var edad = parseInt(prompt("Digite la edad"));
+                    while(edad < 18 && edad > 25 ){
+                        edad = parseInt(prompt("Digita un numero entre 18-25"));
+
+                    }
+                    alert(`la edad digitada ${edad}`);*/
+                    //4
+                    /*var pin = prompt("Digite su PIN");
+                        alert(pin.length);
+                        while(pin.length > 4 || pin.length < 4){
+                        pin = prompt("El PIN digitando tiene mams de 4 digitos o menos Intanta de nuevo");
+                        }*/
+
+                       /* var pin = prompt("Digite su PIN");
+                        alert(pin.length);
+                        while(pin.length  !== 4) {
+                        pin = prompt("El PIN digitando tiene mams de 4 digitos o menos Intanta de nuevo");
+                        }*/
+
+                        //5
+                       /* var monto = parseInt(prompt("Digitar ell monto"));
+                        while (!(monto >= 600)){
+                            monto = parseInt(prompt("Digitar un monto valida"));
+                        }
+                        alert("Bienvenido a tu fucking acount Dow");*/
+                        /*var edad= parseInt(prompt("Digite la edad"));
+                            while(edad >= 18){
+                                document.write(`puede inscribirte`);
+                            }*/
+                            /*var password = prompt("Digite un password");
+                            while(password.length < 8){
+                                password = prompt("Digite un password que tenga como minimo 8 digitos");
+                            }
+                            alert("Password valido");*/
+
+                            do{
+                                var numero = parseInt(prompt("Digite un numero"));
+                            }while (numero > 0);
