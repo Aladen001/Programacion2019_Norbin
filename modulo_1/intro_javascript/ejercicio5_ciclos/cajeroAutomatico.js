@@ -3,7 +3,7 @@ var Cliente ={
     Nombre:"Waddley B",
     Apellido:"Norbin",
     Edad:26,
-    Balance:0,
+    Balance:20050000000,
     tarjeta:080791,
     PIN:0000,
     TipoCuenta:"deposito",
@@ -18,10 +18,9 @@ while(tarjeta.length !== 6){
 while(tarjeta != Cliente.tarjeta){
 
 }
-
 //Digitarr el PIN
 var pin=prompt("Digite su PIN");
-if(pin.length > 4){
+if(pin.length >= 4){
     alert("PIN invalido");
 }
 //Muestran las opciones
@@ -30,6 +29,16 @@ var opcion =prompt(`Seleciona opcion a realizar
 2.Avance
 3.Chequear Balance
 4.Deposit`);
+//validar que el usuario pueda digitar
+
+while(opcion > 4 || opcion < 1){
+    opcion=prompt(`
+    1.Retiro
+    2.Avance
+    3.Chequear Balance
+    4.Deposito
+    `);
+}
 //Selecciono opcion
 var opcionMonto =prompt(`Seleciona una opcion 
 1.200$
