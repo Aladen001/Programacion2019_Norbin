@@ -10,7 +10,8 @@
     <h1>soy HTMl</h1>
         <?php
         $nombre = "Norbin";
-        echo "Bienvenido " . $nombre;
+        echo "<h1> Bienvenido a {$_SERVER['HTTP_HOST']} </h1> ";
+        echo "Hoy es " . date("l");
         ?>
 </body>
 </html>
