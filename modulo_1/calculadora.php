@@ -7,7 +7,7 @@
     <title>Calculadora</title>
     <link rel="stylesheet" href="bootstrap.css">
 </head>
-<body background="sniper.jpg">
+<body background="looney.jpg">
     <div class="container">
     <h1 class="display-4">Calculadora</h1>
     <div class="row">
